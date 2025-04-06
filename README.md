@@ -1,12 +1,45 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and responsive Currency Converter App built using **React** and **custom hooks**. It allows users to convert between currencies in real-time using a beautiful and interactive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔄 Real-time currency conversion using live exchange rates
+- 🌍 Supports multiple currencies
+- 💡 Swappable currency inputs
+- 🧠 Built using a **custom React hook** for fetching currency data
+- 🎯 Instant updates when changing currencies or amounts
+- 🪄 Clean, mobile-friendly UI with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js (Functional Components + Hooks)
+- 🎣 Custom Hook: `useCurrencyInfo`
+- 💨 Tailwind CSS
+- 📦 Modular components (`Input` component reused)
+- 🌐 Fetch API for live data (via Exchange Rate API)
+
+---
+
+## 📁 Folder Structure
+src/ ├── components/ │ └── Input.jsx ├── hooks/ │ └── useCurrencyInfo.js └── App.jsx
+
+🧪 How to Run Locally
+
+git clone https://github.com/akashsingh-hash/currency-converter-app.git
+cd currency-converter-app
+npm install
+npm run dev  # or npm start
+
+💙 Made with love using React & Hooks
+
+Let me know if:
+- You want help writing the `useCurrencyInfo` hook properly
+- You want to deploy it using Vercel or Netlify
+- Or want a `.gitignore` file and full folder setup
+
+Ready to push it and impress! 💥
